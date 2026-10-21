@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 160">
+  <g transform="translate(-60,-10) scale(1.25)">
+    <defs>
+      <linearGradient id="urnGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#c68642"/>
+        <stop offset="100%" stop-color="#8a4f2d"/>
+      </linearGradient>
+    </defs>
+
+    <!-- ICONO -->
+    <g transform="translate(20,20) scale(0.6)">
+      <!-- Cabeza -->
+      <circle cx="128" cy="110" r="55" fill="#f4c38a"/>
+
+      <!-- Orejas -->
+      <ellipse cx="90" cy="120" rx="18" ry="35" fill="#e0ad6d"/>
+      <ellipse cx="166" cy="120" rx="18" ry="35" fill="#e0ad6d"/>
+
+      <!-- Ojos -->
+      <circle cx="112" cy="105" r="6" fill="#2f2f2f"/>
+      <circle cx="144" cy="105" r="6" fill="#2f2f2f"/>
+
+      <!-- Hocico -->
+      <ellipse cx="128" cy="125" rx="18" ry="14" fill="#ffe2c2"/>
+      <circle cx="128" cy="122" r="4" fill="#2f2f2f"/>
+
+      <!-- Sonrisa -->
+      <path d="M118 135 Q128 142 138 135"
+            stroke="#2f2f2f"
+            stroke-width="3"
+            fill="none"
+            stroke-linecap="round"/>
+
+      <!-- Urna -->
+      <path d="M60 150
+               Q128 180 196 150
+               L180 245
+               Q128 265 76 245
+               Z"
+            fill="url(#urnGrad)"/>
+
+      <ellipse cx="128" cy="150" rx="70" ry="18" fill="#a86235"/>
+    </g>
+
+    <!-- TEXTO -->
+    <text x="210" y="100"
+          font-family="Inter, Segoe UI, Arial, sans-serif"
+          font-size="44"
+          font-weight="600"
+          fill="#1f2937"
+          dominant-baseline="middle">
+      Funeraria Mascotas
+    </text>
+  </g>
+</svg>

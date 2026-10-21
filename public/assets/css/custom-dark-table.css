@@ -1,0 +1,45 @@
+[data-pc-theme="dark"] .datatable-table,
+[data-pc-theme="dark"] .table {
+  background-color: #1b232d;
+  color: #e0e0e0;
+}
+
+/* filas */
+[data-pc-theme="dark"] .datatable-table tbody tr,
+[data-pc-theme="dark"] .table tbody tr {
+  background-color: #1b232d;
+}
+
+/* encabezado */
+[data-pc-theme="dark"] .datatable-table thead th,
+[data-pc-theme="dark"] .table thead th {
+  background-color: #263240;
+  color: #ffffff;
+}
+
+/* celdas */
+[data-pc-theme="dark"] .datatable-table td,
+[data-pc-theme="dark"] .datatable-table th {
+    background-color: #263240;
+
+}
+[data-pc-theme="dark"] .table-responsive {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+/* Clase para mostrarla sin flash */
+[data-pc-theme="dark"] .table-ready {
+    opacity: 1;
+}
+.btn-cancelar-custom {
+    background-color: #efefef;
+    color: #555;
+}
+
+/* El efecto Hover que pediste */
+.btn-cancelar-custom:hover {
+    background-color: #2596be !important;
+    color: white !important;             /* Texto blanco */
+}
+
